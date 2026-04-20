@@ -1,0 +1,6 @@
+@test_netcore_docker_HostAddress = http://localhost:5038
+
+GET {{test_netcore_docker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
