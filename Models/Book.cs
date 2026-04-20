@@ -7,8 +7,9 @@ namespace Models
         public string Author { get; set; } = string.Empty;
         public int Year { get; set; } = 0;
 
-        public Book(string Name, string Author, int Year)
+        public Book(int Id, string Name, string Author, int Year)
         {
+            this.Id = Id;
             this.Name = Name;
             this.Author = Author;
             this.Year = Year;
