@@ -1,4 +1,4 @@
-# Iniciando um projeto .NET Core DDD com Docker
+# Iniciando um projeto .NET Core com Docker
 \
 \
 **Buildando o projeto:**
